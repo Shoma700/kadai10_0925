@@ -19,7 +19,7 @@ Route::group(['prefix' => 'admin'], function() {
     Route::get('news/create', 'Admin\NewsController@add');
 });
 
-
+//課題//
 //PHP/Laravel 10 ControllerとViewが連携できるようにしよう↓
 Route::group(['prefix' => 'admin'], function() {
     Route::get('profile/edit', 'Admin\ProfileController@edit');
@@ -28,6 +28,5 @@ Route::group(['prefix' => 'admin'], function() {
 Route::group(['prefix' => 'admin'], function() {
     Route::get('profile/create', 'Admin\ProfileController@add');
 });
-
-//PHP/Laravel 10 ControllerとViewが連携できるようにしよう↑
+//以上です。
 
